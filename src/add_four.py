@@ -3,4 +3,5 @@ def add_four(a, b, c, d):
     return a + b + c + d
 
 # Example usage
-print('Sum:', add_four(1, 2, 3, 4))
+if __name__ == "__main__":
+    print('Sum:', add_four(1, 2, 3, 4))
